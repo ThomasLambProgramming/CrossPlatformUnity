@@ -22,8 +22,10 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetButtonDown("Cancel"))
         {
+            //this makes sure the player cant load the pause menu when its already open or have failed
             if (GameIsPaused == true && hasFailed == false)
             {
                 Resume();

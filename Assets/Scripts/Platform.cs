@@ -49,7 +49,8 @@ public class Platform : MonoBehaviour
     }
     private void OnTriggerEnter(Collider collision)
     {
-        
+        //this checks for platform collision to reverse the movement and to drag the player with 
+        //the platform so they dont just fall off
         if (collision.gameObject.CompareTag("Platform"))
         {
             hasReached = !hasReached;
@@ -68,6 +69,9 @@ public class Platform : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+        //for some reason i cant get this ontriger exit to work 
+        //and the player keeps getting pushed without being connected to the platform
+        
         if (hasReached == true)
         {
             other.gameObject.transform.position += towards * speed * Time.deltaTime;

@@ -30,12 +30,14 @@ public class PlayerMove : MonoBehaviour
         float sideMovement = 0f;
         float forwardMovement = 0f;
 
+        //main movement if on any windows platform 
         if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
         {
             forwardMovement = Input.GetAxis("Vertical") * speed * Time.deltaTime;
             sideMovement = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
             rotationX = Input.GetAxisRaw("RotateX") * rotationSpeed * Time.deltaTime;
 
+            //checks so player cant jump while in air and isnt holding it 
             if (Input.GetAxisRaw("Jump") > 0 && canJump == true && holdingJump == false)
             {
                 rb.AddForce(0, jumpForce, 0);
@@ -45,7 +47,7 @@ public class PlayerMove : MonoBehaviour
             if (Input.GetAxisRaw("Jump") == 0)
                 holdingJump = false;
         }
-        else
+        else //player is on android and the android ui has been loaded so joysticks are the movement
         {
             sideMovement = joyStickPlayer.Horizontal * speed * Time.deltaTime;
             forwardMovement = joyStickPlayer.Vertical * speed * Time.deltaTime;
@@ -55,6 +57,7 @@ public class PlayerMove : MonoBehaviour
         rb.MovePosition(movePos);
         transform.Rotate(0, rotationX, 0);
 
+        //if the jump has reached its peak start affecting it by an increased amount of gravity to make the jump feel more fluid and solid
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
@@ -73,6 +76,7 @@ public class PlayerMove : MonoBehaviour
             holdingJump = true;
         }
     }
+    //this is just for when the player lets go of the button for jumping on android
     public void yeet()
     {
         holdingJump = false;
