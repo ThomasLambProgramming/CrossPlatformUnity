@@ -81,7 +81,7 @@ public class PlayerMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Finish")
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(2);
         }
         if (collision.gameObject.tag == "Platform")
         {
