@@ -20,10 +20,8 @@ public class CameraRotate : MonoBehaviour
     void Update()
     {
         //checks for platform to change automatically, so when building or changing platforms it doesnt cause conflicts
-        if (Application.platform == RuntimePlatform.WindowsPlayer)
-            camRotation.x += Input.GetAxisRaw("RotateY") * rotationSpeed * Time.deltaTime;
-
-        else if (Application.platform == RuntimePlatform.WindowsEditor)
+        if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WebGLPlayer 
+            || Application.platform == RuntimePlatform.WindowsEditor)
             camRotation.x += Input.GetAxisRaw("RotateY") * rotationSpeed * Time.deltaTime;
         else
             camRotation.x += JoyStick.Vertical * rotationSpeed * Time.deltaTime;
