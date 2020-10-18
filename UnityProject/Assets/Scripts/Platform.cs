@@ -8,7 +8,7 @@ public class Platform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.transform.parent = gameObject.transform;
+            collision.transform.parent = gameObject.transform.parent;
 
         }
     }

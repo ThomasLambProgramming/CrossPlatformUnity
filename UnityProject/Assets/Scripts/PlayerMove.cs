@@ -31,7 +31,7 @@ public class PlayerMove : MonoBehaviour
         float forwardMovement = 0f;
 
         //main movement if on any windows platform 
-        if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+        if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WebGLPlayer)
         {
             forwardMovement = Input.GetAxis("Vertical") * speed * Time.deltaTime;
             sideMovement = Input.GetAxis("Horizontal") * speed * Time.deltaTime;

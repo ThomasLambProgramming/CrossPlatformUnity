@@ -1,0 +1,113 @@
+commit 02544e9ef3567c684f681dda3b18783bfeb3bdf3 (HEAD -> master, origin/master, origin/HEAD)
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Thu Oct 15 03:56:55 2020 +1100
+
+    Updated platforms/ Fix camera rotator angle
+
+commit 831194719f1fcdb70b9e13246944172b959587cf
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Tue Oct 13 15:04:18 2020 +1100
+
+    Unity Finished
+
+commit 0904892d5f413a1c47b819c9f14bd4816b5b13bd
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 04:49:16 2020 +1100
+
+    Android Recording left
+
+commit fe955007616b7b73e65a709e012d9e2a58c905f1
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 02:11:43 2020 +1100
+
+:...skipping...
+commit 02544e9ef3567c684f681dda3b18783bfeb3bdf3 (HEAD -> master, origin/master, origin/HEAD)
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Thu Oct 15 03:56:55 2020 +1100
+
+    Updated platforms/ Fix camera rotator angle
+
+commit 831194719f1fcdb70b9e13246944172b959587cf
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Tue Oct 13 15:04:18 2020 +1100
+
+    Unity Finished
+
+commit 0904892d5f413a1c47b819c9f14bd4816b5b13bd
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 04:49:16 2020 +1100
+
+    Android Recording left
+
+commit fe955007616b7b73e65a709e012d9e2a58c905f1
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 02:11:43 2020 +1100
+
+    Final Readme
+
+:...skipping...
+commit 02544e9ef3567c684f681dda3b18783bfeb3bdf3 (HEAD -> master, origin/master, origin/HEAD)
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Thu Oct 15 03:56:55 2020 +1100
+
+    Updated platforms/ Fix camera rotator angle
+
+commit 831194719f1fcdb70b9e13246944172b959587cf
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Tue Oct 13 15:04:18 2020 +1100
+
+    Unity Finished
+
+commit 0904892d5f413a1c47b819c9f14bd4816b5b13bd
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 04:49:16 2020 +1100
+
+    Android Recording left
+
+commit fe955007616b7b73e65a709e012d9e2a58c905f1
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 02:11:43 2020 +1100
+
+    Final Readme
+
+commit 47b88fda3332460be7685d5dcc853a7e7f12c277
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 01:51:21 2020 +1100
+
+    Commented code
+
+commit c1af756e4e1064dc6029202f0744530e83e082f4
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Wed Oct 7 01:33:45 2020 +1100
+
+    Documentation / Android left V2
+
+commit a4981ca356e6aac779846a52ae1f3ac088b7b689
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Tue Oct 6 15:32:09 2020 +1100
+
+    Android Proof + documentation left
+
+commit c95c4f44ed593237347c98e7eb0548616e89fb92
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Mon Sep 21 19:44:23 2020 +1000
+
+    Files missing from upload
+
+commit 601b25f8af2f0e770f8791ac60ee7c467c04ce2e
+Author: Thomas Lamb <mcsorleyprogramming@gmail.com>
+Date:   Mon Sep 21 19:42:28 2020 +1000
+
+    Uploading Finished Game
+
+commit 5b69d4fde229e5afa3902f0f92f717de93b12473
+Author: ThomasLambProgramming <61687865+ThomasLambProgramming@users.noreply.github.com>
+Date:   Thu Sep 17 16:25:44 2020 +1000
+
+    Add files via upload
+
+commit e9bfeb6081e079359453975af6b64fe2d4058ea0
+Author: ThomasLambProgramming <61687865+ThomasLambProgramming@users.noreply.github.com>
+Date:   Thu Sep 17 15:42:37 2020 +1000
+
+    Initial commit
